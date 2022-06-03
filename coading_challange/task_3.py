@@ -103,7 +103,7 @@ def main():
 
     # displaying the directions one by one as steps.
     for n in range(len(direction_list)):
-        print(f"Step {n}: {direction_list[n]}")
+        print(f"Step {n+1}: {direction_list[n]}")
 
 
 if __name__ == "__main__":
